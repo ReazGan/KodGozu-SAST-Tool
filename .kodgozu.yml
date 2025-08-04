@@ -1,0 +1,10 @@
+# .kodgozu.yml
+
+rules:
+  SubprocessShellTrueRule:
+    enabled: true
+  PickleLoadRule:
+    enabled: true
+  HardcodedSecretRule:
+    enabled: true
+    entropy_threshold: 4.0
